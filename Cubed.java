@@ -14,7 +14,7 @@ public class Cubed {
 		do {
 		
 			
-		System.out.println("Plz Enter an Number:");
+		System.out.println("Please Enter an Number:");
 		int userInput = scar.nextInt();
 
 		System.out.println("Number   " + " Sqaured " + "  Cubed   ");
@@ -30,9 +30,8 @@ public class Cubed {
 		choice = scar.next();
 	
 		 } while(!(choice.equalsIgnoreCase("n")));
-			
+			System.out.println("Goodbye, This was great");
 		
 		}
 }
-
 
